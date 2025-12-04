@@ -1,7 +1,8 @@
 git clone <https://github.com/mananjani2102/GITHUB-TEST.git>
 cd github-test
-git checkout -c "b"
-echo "hiiii" >> b
+git checkout -b "b"
+echo "hiiii" > b
+git add .
 git commit -m "save"
 git checkout main
 git push origin main
