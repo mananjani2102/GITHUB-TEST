@@ -1,0 +1,8 @@
+git branch update-readme
+git checkout -c "b"
+echo "HELLO BHAIOOOO" >> b
+echo "YOOO BHAIOOO" >> b
+git add .
+git commit -m "save"
+git checkout main
+git merge update-readme

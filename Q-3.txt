@@ -1,0 +1,8 @@
+echo "new file" > index.txt
+git status
+git stash -u
+git stash list
+git stash pop
+git checkout update-readme
+git rebase main
+git tag -a v1.1 -m "save it"

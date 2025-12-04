@@ -1,0 +1,8 @@
+mkdir github-test
+cd github-test
+git init
+eacho "HELLO" >> index.html
+eacho "YOOOO" >> index.html
+git add .
+git status
+git commit -m "save"
